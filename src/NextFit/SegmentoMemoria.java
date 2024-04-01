@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package gerenciador;
+package NextFit;
 
 /**
  *
@@ -48,5 +48,7 @@ public class SegmentoMemoria {
     public String toString() {
         return String.format("[%s | %d | %d]", Boolean.toString(isOcupado()),
                 getPosicaoInicial(), getComprimento());
-    }        
+    }       
+    
+
 }
